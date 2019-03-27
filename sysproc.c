@@ -8,6 +8,12 @@
 #include "proc.h"
 
 int
+sys_wcupa(void)
+{
+  return 1871;
+}
+
+int
 sys_fork(void)
 {
   return fork();
@@ -88,10 +94,4 @@ sys_uptime(void)
   xticks = ticks;
   release(&tickslock);
   return xticks;
-}
-
-int
-sys_wcupa(void)
-{
-  return 1871;
 }
