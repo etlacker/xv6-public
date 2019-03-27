@@ -8,6 +8,12 @@
 #include "proc.h"
 
 int
+sys_getreadcount(void)
+{
+  // return number of times wcupa() called
+}
+
+int
 sys_wcupa(void)
 {
   return 1871;
