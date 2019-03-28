@@ -1,5 +1,6 @@
 #include "stat.h"
 #include "user.h"
+#include "types.h"
  
 int main(void) {
  
