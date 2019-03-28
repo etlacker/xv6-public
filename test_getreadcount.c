@@ -13,7 +13,7 @@ int main(void) {
   
   printf(1, "getreadcount() -> %d\n", getreadcount());
   
-  for (i = 4; i < 6; i++){
+  for (int i = 4; i < 6; i++){
     printf(1, "i -> %d, West Chester University was founded in %d\n", i, wcupa());
   }
   
