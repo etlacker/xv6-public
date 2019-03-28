@@ -7,7 +7,7 @@
 #include "mmu.h"
 #include "proc.h"
 
-int readcount = 0;
+extern int readcount;
 
 int
 sys_getreadcount(void)
