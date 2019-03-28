@@ -105,6 +105,7 @@ extern int sys_write(void);
 extern int sys_uptime(void);
 extern int sys_wcupa(void);
 extern int sys_getreadcount(void);
+extern int readcount;
 
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
