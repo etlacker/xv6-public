@@ -7,15 +7,18 @@
 #include "mmu.h"
 #include "proc.h"
 
+int readcount = 0;
+
 int
 sys_getreadcount(void)
 {
-  // return number of times wcupa() called
+  return readcount;
 }
 
 int
 sys_wcupa(void)
 {
+  readcount++;
   return 1871;
 }
 
