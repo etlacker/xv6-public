@@ -2,8 +2,9 @@
 #include "user.h"
  
 int main(void) {
-
-  for (int i = 0; i < 5; i++){
+  int i = 0;
+ 
+  for (i; i < 5; i++){
     printf(1, "i -> %d, West Chester University was founded in %d\n", i, wcupa());
   }
   
